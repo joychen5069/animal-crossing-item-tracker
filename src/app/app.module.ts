@@ -6,6 +6,9 @@ import { FishComponent } from './fish/fish.component';
 import { BugsComponent } from './bugs/bugs.component';
 import { SeaCreaturesComponent } from './sea-creatures/sea-creatures.component';
 import { ArtComponent } from './art/art.component';
+import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -13,10 +16,13 @@ import { ArtComponent } from './art/art.component';
     FishComponent,
     BugsComponent,
     SeaCreaturesComponent,
-    ArtComponent
+    ArtComponent,
+    HeaderComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
