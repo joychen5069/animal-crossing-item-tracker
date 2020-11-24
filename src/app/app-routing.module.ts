@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FishComponent } from './fish/fish.component';
-import { BugsComponent } from './bugs/bugs.component';
 import { ArtComponent } from './art/art.component';
-import { SeaCreaturesComponent } from './sea-creatures/sea-creatures.component';
+import { BugsComponent } from './creatures/bugs/bugs.component';
+import { FishComponent } from './creatures/fish/fish.component';
+import { SeaCreaturesComponent } from './creatures/sea-creatures/sea-creatures.component';
+
 
 const routes: Routes = [
   {path: 'fish', component: FishComponent},
