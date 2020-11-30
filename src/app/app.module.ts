@@ -9,11 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { FishComponent } from './creatures/fish/fish.component';
 import { BugsComponent } from './creatures/bugs/bugs.component';
 import { SeaCreaturesComponent } from './creatures/sea-creatures/sea-creatures.component';
+import { CreaturesComponent } from './creatures/creatures.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    CreaturesComponent,
     FishComponent,
     BugsComponent,
     SeaCreaturesComponent,

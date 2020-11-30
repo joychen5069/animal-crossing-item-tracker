@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fish.component.css']
 })
 export class FishComponent implements OnInit {
-  urlEndpoint = 'http://acnhapi.com/v1/fish/';
+
 
   constructor() { }
 
