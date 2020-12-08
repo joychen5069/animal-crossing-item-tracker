@@ -1,4 +1,13 @@
 <div class="row">
+    <ul>
+        <li *ngFor="let fish of fishes">
+            <p>
+                {{fish.name}}
+            </p>
+        </li>
+    </ul>
+</div>
+<div class="row">
     <div class="col-xs-6">
         <table class="table table-striped need">
             <thead class="dark"> Need to Catch
@@ -6,6 +15,8 @@
                     <th scope="col">Name</th>
                     <th scope="col">Price</th>
                     <th scope="col">Location</th>
+                    <th scope="col">Months</th>
+                    <th scope="col">Time</th>
                     <th scope="col">Image</th>
                     <th scope="col">Did you catch it?</th>
                 </tr>
@@ -17,21 +28,21 @@
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td><button>Yes!</button></td>
-                  </tr>
-                  <tr>
+                </tr>
+                <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
                     <td><button>Yes!</button></td>
-                  </tr>
-                  <tr>
+                </tr>
+                <tr>
                     <th scope="row">3</th>
                     <td>Larry</td>
                     <td>the Bird</td>
                     <td>@twitter</td>
                     <td><button>Yes!</button></td>
-                  </tr>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -46,25 +57,7 @@
                     <th scope="col">Image</th>
                 </tr>
             </thead>
-            <tbody >
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+            <tbody>
             </tbody>
         </table>
     </div>

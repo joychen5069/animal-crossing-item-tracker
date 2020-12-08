@@ -10,6 +10,7 @@ import { FishComponent } from './creatures/fish/fish.component';
 import { BugsComponent } from './creatures/bugs/bugs.component';
 import { SeaCreaturesComponent } from './creatures/sea-creatures/sea-creatures.component';
 import { CreaturesComponent } from './creatures/creatures.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CreaturesComponent } from './creatures/creatures.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
